@@ -9,7 +9,7 @@ const Navbar = () => {
                     <BiCameraMovie />HOME
                 </Link></h2>
             <form>
-                <input type="text" placeholder="Nome do filme que deseja buscar" />
+                <input type="text" placeholder="Buscar filme" />
                 <button type="submit"><BiSearchAlt2></BiSearchAlt2></button>
             </form>
         </nav>
