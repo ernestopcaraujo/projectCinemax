@@ -1,0 +1,24 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* a linha abaixo faz com que nenhum elemento utrapasse a largura do elemento pai */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    /* essa cor será a cor padrão dos textos */
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color:darkorange;
+    transition: 0.5s;
+}
+
+a:hover{
+    color:rgb(255, 218, 148)
+}
+
