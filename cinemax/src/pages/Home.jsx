@@ -28,11 +28,12 @@ const Home = () => {
        //Onde top_rated é uma parte da url que é fornecida na documentação da API
        //que retorna os filmes melhores rankeados. A chave da API é passda via parâmetro query string.
         getTopRatedMovies(topRatedUrl);
+       
         }, []); 
             
             //Nesse momento, como não queremos mapear nenhuma dependencia, ele fica vazio.
             //então só será excutado esse useEffect quando a página for carregada.
-
+            
         return(
         <div className="container">
             <h2 className="title">Nossos Top 20 Filmes</h2>
