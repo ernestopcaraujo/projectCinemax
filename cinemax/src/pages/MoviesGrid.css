@@ -1,0 +1,69 @@
+.container .title {
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+.title .query-text{
+    color:orange;
+}
+
+.movies-container {
+    display: flex;
+
+    /* quebra a linha quando termnina o espaço */
+    flex-wrap: wrap;
+
+    /* itens são distribuidos uniformemente */
+    justify-content: space-between;
+    
+    padding: 2rem;
+    max-width: 1200px;
+
+    /* centraliza o container no centro da tela */
+    margin: 0 auto;
+}
+
+.movies-container div {
+    width:30%;
+    color: white;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(65, 64, 64);
+    padding: 1rem;
+}
+
+.movies-container img{
+    /* se a imagem for maior, não vai vazar do container. vai respeitar o tamanho dele */
+    max-width: 100%;
+}
+
+/* padronização do espaçamento das informações do card */
+.movies-container div img,
+.movies-container div h2
+.movies-container div p {
+    margin-bottom: 1rem;
+}
+
+.movies-container div svg {
+    color: orangered;
+}
+
+.movies-container div a{
+    background-color: orangered;
+    border: 2px solid grey;
+    border-radius: 4px;
+    color: black;
+    padding: 1rem 0.5rem;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.movies-container div a:hover{
+    background-color: transparent;
+    color:orangered;    
+}
